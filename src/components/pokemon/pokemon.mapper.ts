@@ -1,7 +1,7 @@
 import { Pokemon, EvolutionTree } from './pokemon.model';
 import { ItemTemplate } from '@core/game_master/gameMaster';
 import { Util } from '@util';
-import { CPCalculator } from '../../core/cp-calculator';
+import { CPCalculator } from './shared/cp-calculator';
 
 export class PokemonMapper {
     public static Map(rawPokemon: ItemTemplate): Pokemon {
